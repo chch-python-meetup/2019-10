@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 with open('treaty.txt') as f:
   f = f.read().lower()
   f = f.strip(string.punctuation)
-  f = f.replace("(","").replace(")","").replace("[","").replace("]","").replace(" - ","")
+  f = f.replace("(","").replace(")","").replace("[","").replace("]","").replace(" - "," ")
   f = f.split()
 
 
